@@ -3,8 +3,9 @@
 include conf/machine/include/imx-base.inc
 include conf/machine/include/tune-cortexa9.inc
 
+PREFERRED_PROVIDER_u-boot = "u-boot-amherst"
 PREFERRED_PROVIDER_virtual/kernel ?= "linux-amherst"
-PREFERRED_VERSION_linux-amherst ?= "3.14.28"
+PREFERRED_VERSION_linux-amherst ?= "3.14.38"
 
 SERIAL_CONSOLE = "115200 ttymxc0"
 

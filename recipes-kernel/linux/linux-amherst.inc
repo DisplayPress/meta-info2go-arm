@@ -14,8 +14,9 @@ SRCBRANCH ??= "master"
 
 
 # SRC_URI for amherst kernel
-SRC_URI = "git://github.com/displaypress/linux-imx6.git;protocol=git;branch=${SRCBRANCH} \"
-#           file://defconfig \"
+SRC_URI = "git://github.com/displaypress/linux-imx6.git;protocol=git;branch=${SRCBRANCH} \
+           file://defconfig \
+	  "
 
 S = "${WORKDIR}/git"
 
