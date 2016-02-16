@@ -12,7 +12,7 @@ DEPENDS += "lzop-native bc-native"
 
 SRCBRANCH = "info2go-imx_3.14.38_6qp_ga"
 LOCALVERSION = "-1.0.0_ga-amherst-"
-SRCREV = "0d5b53acab3c106a8e9b178ba88581e4ba2d0fca"
+SRCREV = "1d97759616c7f4ca79e8c2262da0bd97a0093c76"
 
 SRC_URI += " \
     file://0001-ARM-8158-LLVMLinux-use-static-inline-in-ARM-ftrace.patch \
