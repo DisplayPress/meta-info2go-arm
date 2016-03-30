@@ -17,7 +17,6 @@ SRCREV = "1d97759616c7f4ca79e8c2262da0bd97a0093c76"
 SRC_URI += " \
     file://0001-ARM-8158-LLVMLinux-use-static-inline-in-ARM-ftrace.patch \
     file://0001-ARM-LLVMLinux-Change-extern-inline-to-static-inline.patch \
-    file://0003-ARM-imx6sl-Disable-imx6sl-specific-code-when-imx6sl-.patch \
     file://0004-mmc-sdhci-esdhc-imx-Fixup-runtime-PM-conditions-duri.patch \
 "
 
