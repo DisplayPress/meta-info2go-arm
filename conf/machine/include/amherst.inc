@@ -5,7 +5,8 @@ include conf/machine/include/tune-cortexa9.inc
 
 PREFERRED_PROVIDER_u-boot = "u-boot-amherst"
 PREFERRED_PROVIDER_virtual/kernel ?= "linux-amherst"
-PREFERRED_VERSION_linux-amherst ?= "3.14.38"
+#PREFERRED_VERSION_linux-amherst ?= "3.14.38"
+PREFERRED_VERSION_linux-amherst ?= "3.10.17"
 
 SERIAL_CONSOLE = "115200 ttymxc0"
 
